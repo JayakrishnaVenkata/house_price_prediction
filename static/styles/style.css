@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+}
+.navbar-style
+{
+    box-shadow:0 5px white;
+    text-transform:uppercase;
+}
+.logo
+{
+    height:50px;
+    padding:1px;
+}
+.icon-bar
+{
+    background:gray;
+}
+.big-text
+{
+    padding-top: 150px;
+    font-size:80px;
+    margin:20px 0;
+    color:black;
+}
+a.btn
+{
+    margin:20px 100px;
+    width:150px;
+    padding:10px;
+    border-radius:20px;
+}
+a.btn-first
+{
+    background-color:transparent;
+    border:1px solid black;
+    color:black;
+}
+a.btn:hover
+{
+    background:white;
+    border:none;
+    color:black;
+    box-shadow:5px 5px 10px #999;
+    transition:0.3s;
+}
+.home-img
+{
+     margin-top:250px;
+     width:160px;
+}
+#home
+{
+    padding:80px 0;
+}
+.home-img1
+{
+    margin-top:220px;
+    width:160px;
+}
+.home-img2
+{
+    margin-top:260px;
+    width:160px;
+}
+.home h4
+{
+    padding:5px;
+    margin-top:25px;
+    text-transform:uppercase;
+}
+.Title
+{
+    padding-top:120px;
+}
+#aboutus
+{
+    color:black;
+    padding:100px;
+}
+.col-md-4
+{
+    color:black;
+}
+#contactus
+{
+    color:black;
+    padding:100px;
+}
+.contactus-img
+{
+    width:500px;
+    height:200px;
+    padding-right: 120px;
+}
+.col-sm-4
+{
+    padding-top: 100px;
+}

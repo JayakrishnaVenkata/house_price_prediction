@@ -1,0 +1,109 @@
+<html>
+<head>
+    <title>House Price Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles/style.css') }}" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+</head>
+<body>
+    <header>
+    <nav class="navbar navbar-style">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#micon">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>            
+        <a href=""><image class="logo" src="{{ url_for('static', filename='images/house.jpeg') }}"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="micon">
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="#home"><b>home</b></a></li>
+            <li><a href="#aboutus"><b>About Us</b></a></li>
+            <li><a href="#contactus"><b>Contact Us</b></a></li>
+        </ul>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-6">
+                <h1 class="big-text"><b>HOUSE PRICE PREDICTION</b></h1>
+                <a class="btn btn-first" href="{{url_for('index')}}"><b>PREDICT</b></a>
+            </div>
+                <style>
+                    body{
+                        background:url(static/images/homepage.jpg);
+                        background-size:cover;
+                        background-attachment: fixed;;
+                    }
+                </style>
+                <div class="col-sm-4">
+                    <img src="{{ url_for('static', filename='images/10.jpg') }}">
+                </div>
+        </div>
+        </div>
+    </div>
+    </header>
+<!----------------------Home Section-------------------->
+    <section id="home">
+        <div class="container text-center">          
+                 <div class="row text-center">
+                <div class="col-md-4 home">
+                    <image src="{{ url_for('static', filename='images/homeimg.jpg') }}" class="home-img">
+                    <h4><b>Importance Of House Pricing</b></h4>
+                    <p>A property's value is important in real estate transactions.House price trends are not only the concern of buyers and sellers,but it also indicates the current economic situation</p>
+                </div>
+                <div class="col-md-4 home">
+                    <img src="{{ url_for('static', filename='images/price.jpg') }}" class="home-img1">
+                    <h4><b>Advantages</b></h4>
+                    <p>House price prediction can help the developer determine the selling price of a house and can help the customer to arrange the right time to purchase a house.</p>
+                </div>
+                <div class="col-md-4 home">
+                    <img src="{{ url_for('static', filename='images/houseprice.jpg') }}" class="home-img2">
+                    <h4><b>Why Lasso Regression?</b></h4>
+                    <p>Lasso Regression optimses the cost function reducing the absolute values of the coefficients.</p>
+                </div>
+            </div>
+        </div>
+        </div><br><br><br>
+<!--------------------aboutus Section-------------------->
+        <section id="aboutus">
+            <div class="container text-center">
+                <div class="row text-center">
+                    <div class="col-md-3 aboutus">
+                        <h2><b>ABOUT US</b></h2>
+                        <p>We,our team members intends to predict accurate price of house without any loss.There are many factors that have to be taken into consideration for predicting house prices and try to predict efficient house pricing for customers with respect to their budjet as well as also according to their priorities.So,we are creating a house price prediction model.</p>
+                    </div>
+                    <div class="col-md-3 aboutus">
+                        <img src="{{ url_for('static', filename='images/aboutus.jpg') }}" class="aboutus-img"><br><br><br><br><br>
+                    </div>
+                </div>
+            </div>
+        </section>
+<!--------------------contactus Section-------------------->
+<section id="contactus">
+    <div class="container text-center">
+        <div class="row text-center">
+            <div class="col-md-3 contactus">
+                <h2><b>CONTACT US</b></h2>
+                <p>Sri Vasavi Engineering College.</p>
+                <h4><b>Address</b></h4>
+                <p>Pedatadepalli-534101,Tadepalligudem, Andhra Pradesh, India.</p>
+            </div>
+            <div class="col-md-3 contactus">
+                <img src="{{ url_for('static', filename='images/download1.jpeg') }}" class="contactus-img">
+            </div>
+        </div>
+    </div>
+</section>
+<!--------------Smooth Scroll
+<script src="smooth-scroll.js"></script>
+<script>
+	var scroll =new SmoothScroll('a[href*="#"]');
+</script>---->
+</body>
+</html>
